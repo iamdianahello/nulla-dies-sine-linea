@@ -22,7 +22,7 @@ class TestCasePalindrome(TestCase):
         assert is_palindrome('qwertyytr ewq') is False
 
     def test_case_check(self):
-        assert is_palindrome('QwertyytrewQ') 
+        assert is_palindrome('QwertyytrewQ')
         assert is_palindrome('QWERTYYTREWQ')
         assert is_palindrome('qwertyYTREWQ') is False
 
